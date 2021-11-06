@@ -1,0 +1,89 @@
+.def-table{
+    background: white;
+    text-align: center;
+    width: 100%;
+}
+
+.top-filter{
+    margin-bottom: 20px;
+    background: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-filter .item-count{
+    width: 250px;
+}
+
+.title{
+    margin: 20px;
+}
+
+.title h1{
+    font-weight: 600;
+}
+
+.rows{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.rows div{
+    margin-right: 5px;
+}
+
+.rows .row-btn{
+    border: 1px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color:#11101D;
+    color: #fff;
+}
+.rows .row-btn i{
+    padding: 2px;
+}
+
+.rows .search{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input{
+    border: 20px;
+}
+
+.search a{
+    background-color: #5247c3;
+}
+
+.search a:hover{
+    background-color: #11101D;
+}
+
+.search a i{
+    color: white;
+}
+
+.def-btn a{
+    background-color:#5247c3;
+    color: white;
+}
+
+.def-btn a:hover{
+    background-color: #11101D;
+    color: white;
+}
+
+.err {
+    text-align: center;
+}
